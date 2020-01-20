@@ -23,9 +23,9 @@ int recursion(int n){
 int main(){
 
     int num;
-    cout << "Enter a number "; //asks input
+    cout << "Enter a number:"; //asks input
     cin >> num; // recieves input
     int res = recursion(num);
-    cout << "\nResult " << res << endl ;
+    cout << "\nResult:" << res << endl ;
     return 0;
 }
